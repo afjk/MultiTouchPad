@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Wi-Fi Multi Touch Pad</string>
+	<string name="server_select">サーバー選択</string>
+	<string name="setting">設定</string>
+	<string name="default_port">9260</string>
+<!-- preference.xml -->
+	<string name="connection">接続</string>
+	<string name="port_num">ポート番号</string>
+	<string name="port_num_summary">"TCPポート番号"</string>
+	<string name="auto_connect">"自動接続"</string>
+	<string name="auto_connect_summary">"前回接続したサーバに自動接続"</string>
+	<string name="display">"表示"</string>
+	<string name="full_screen">"フルスクリーン表示"</string>
+	<string name="full_screen_summary">"ピクトエリアを隠してフルスクリーン表示"</string>
+	<string name="show_hint">"ヒント表示"</string>
+	<string name="show_hint_summary">"操作画面にヒントを表示する"</string>
+	<string name="usability">"ユーザビリティ"</string>
+	<string name="mouse_sense">"ポインタ感度"</string>
+	<string name="mouse_sense_summary">"マウスポインタの移動速度"</string>
+	<string name="scroll_sense">"スクロール感度"</string>
+	<string name="scroll_sense_summary">"スクロールの速度"</string>
+	<string name="other">"その他"</string>
+	<string name="shared_clipboard">"クリップボード共有"</string>
+	<string name="shared_clipboard_summary">"PCのクリップボード情報を反映する"</string>
+	<string name="send_usage_statistics">"統計情報を送信する"</string>
+	<string name="send_usage_statistics_summary">"匿名の統計情報を送信する"</string>
+	<string name="about_this">"このアプリについて"</string>
+
+<!-- CustomPreference.java -->
+	<string name="about_this_message">"Visit https://sites.google.com/site/wifimultitouchpad/"</string>
+
+<!-- ServerSettingActivity.java -->
+	<string name="delete_ip">"削除しますか？"</string>
+	<string name="add_server_ip">"サーバーを検索しています。\n見つからない場合、手動でIPアドレスを登録してください。"</string>
+
+<!-- input_dialog.xml -->
+	<string name="input_server_ip">"サーバーのIPアドレスを入力してください"</string>
+	
+<!-- wellcome.xml -->
+	<string name="wellcome">ようこそ!</string>
+	<string name="wellcome_message">"サーバーソフトをPCで実行してください。"</string>
+	<string name="run">"実行しました"</string>
+
+<!-- MainActivity.java -->
+	<string name="send_message">"PCに入力文字を送信しました。"</string>
+	<string name="wifi_connection">"Wi-Fi接続を有効にしてください。"</string>
+
+<!-- Hint Message -->
+	<string name="hint_wait">"上部ボタンで文字入力エリア、キーボタン表示\n左クリックは1本指でタップ\n右クリックは2本指でタップ\nドラッグは1本指でタップ＆ドラッグ\nスクロールは2本指でドラッグor右端をドラッグ\nヒントはタッチした指の本数に応じて表示します"</string>
+	<string name="hint_1press">"左クリックは2本目の指でタップ\n右クリックは2本目、3本目の指でタップ\n左ドラッグは2本目の指をタッチしたままドラッグ\n右ドラッグは2本目、3本目の指をタッチしたままドラッグ"</string>
+	<string name="hint_dragging">"ドラッグ中"</string>
+	<string name="hint_2press">"拡大縮小はピンチイン、ピンチアウト\nスクロールは2本指でドラッグ"</string>
+	<string name="hint_scroll">"スクロール中"</string>
+	<string name="hint_3press">"コピーは3本指でタップ\n選択文字のブラウザ検索は、3本指でダブルタップ\nウィンドウ最大化は3本指で上方向にフリック\nウィンドウ最小化は3本指で下方向にフリック\n戻る操作は3本指で左方向にフリック\n進む操作は3本指で右方向にフリック\n※認識しにくい場合は、しっかりタッチして下さい"</string>
+	<string name="hint_4press">"デスクトップ表示は4本指でタップ(Win)\nウィンドウ選択は4本指で左右にドラッグ\nウィンドウ選択は4本指で上下にドラッグ(Win Aero)\n※認識しにくい場合は、しっかりタッチして下さい"</string>
+	<string name="hint_4press_lr">"ウィンドウ選択は左右にドラッグ\n指は1本まで離しても可"</string>
+	<string name="hint_4press_ud">"ウィンドウ選択は上下にドラッグ\n指は1本まで離しても可\nWindows Vista以降 Aero使用時のみ"</string>
+	<string name="hint_clipboard">"PCのクリップボードの内容は、このスマートフォンに反映されます"</string>
+	<string name="hint_input">"文字入力後、確定操作でPCへ送信\nBACKキーで文字入力エリア、キーボタンを隠す"</string>
+	
+<!-- general -->
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="add">追加</string>
+	<string name="cancel">キャンセル</string>
+	<string name="app_site">"https://sites.google.com/site/wifimultitouchpad/"</string>
+
+</resources>

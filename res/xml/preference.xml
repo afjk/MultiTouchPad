@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+	<PreferenceCategory android:title="@string/connection">
+		<EditTextPreference
+			android:key="port"
+			android:title="@string/port_num"
+			android:summary="@string/port_num_summary"
+			android:defaultValue="@string/default_port"/>
+		<CheckBoxPreference
+			android:key="auto_connect"
+			android:title="@string/auto_connect"
+			android:summary="@string/auto_connect_summary"/>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/display">
+		<CheckBoxPreference
+			android:key="full_screen"
+			android:title="@string/full_screen"
+			android:summary="@string/full_screen_summary"/>
+		<CheckBoxPreference
+			android:key="show_hit"
+			android:title="@string/show_hint"
+			android:summary="@string/show_hint_summary"
+			android:defaultValue="true"/>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/usability">
+		<com.afjk01.tool.WifiMultiTouchPad.SeekBarPreference
+			android:key="mouse_sense"
+			android:title="@string/mouse_sense"
+			android:summary="@string/mouse_sense_summary"
+			android:defaultValue="50"/>
+		<com.afjk01.tool.WifiMultiTouchPad.SeekBarPreference
+			android:key="scroll_sense"
+			android:title="@string/scroll_sense"
+			android:summary="@string/scroll_sense_summary"
+			android:defaultValue="50"/>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/other">
+		<CheckBoxPreference
+			android:key="shared_clipboard"
+			android:title="@string/shared_clipboard"
+			android:summary="@string/shared_clipboard_summary"
+			android:defaultValue="true"/>
+		<!-- 
+		<CheckBoxPreference
+			android:key="send_user_info"
+			android:title="@string/send_usage_statistics"
+			android:summary="@string/send_usage_statistics_summary"
+			android:defaultValue="true"/>
+			 -->
+		<com.afjk01.tool.WifiMultiTouchPad.CustomPreference
+			android:key="about"
+			android:title="@string/about_this"/>
+	</PreferenceCategory>
+</PreferenceScreen>

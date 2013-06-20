@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayoutAddBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" android:layout_gravity="center_horizontal" android:layout_marginTop="10px">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutKeyBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/ImageButtonAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="#00000000"
+                android:padding="5dip"
+                android:src="@android:drawable/ic_menu_add"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/editTextMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_marginTop="10px"
+            android:layout_weight="1"
+            android:imeOptions="actionSend|flagNoExtractUi" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutKeyButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:gravity="bottom"
+		android:layout_gravity="bottom"
+		android:paddingLeft="10px" android:paddingRight="10px">
+
+        <LinearLayout
+        android:id="@+id/linearLayoutKeyButtonsTate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Copy" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Paste" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=" " />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="BS" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ret" />
+    </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewHintMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_wait"
+        android:textAppearance="?android:attr/textAppearanceSmall" android:layout_gravity="center_vertical|center_horizontal" android:textColor="#FFFFFF" android:layout_marginLeft="20px" android:layout_marginRight="20px"/>
+
+</FrameLayout>

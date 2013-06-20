@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Wi-Fi Multi Touch Pad</string>
+	<string name="server_select">Servers</string>
+	<string name="setting">Preference</string>
+	<string name="default_port">9260</string>
+<!-- preference.xml -->
+	<string name="connection">Connection</string>
+	<string name="port_num">TCP Port</string>
+	<string name="port_num_summary">"TCP port number"</string>
+	<string name="auto_connect">"Auto Connection"</string>
+	<string name="auto_connect_summary">"Connects with the last time connected server automatically."</string>
+	<string name="display">"Display"</string>
+	<string name="full_screen">"Full Screen"</string>
+	<string name="full_screen_summary">"Display on a full-screen."</string>
+	<string name="show_hint">"Show Hint"</string>
+	<string name="show_hint_summary">"Show hint message on screen"</string>
+	<string name="usability">"Usabiliity"</string>
+	<string name="mouse_sense">"Pointer Sensitivity"</string>
+	<string name="mouse_sense_summary">"Adjust mouse pointer sensitivity."</string>
+	<string name="scroll_sense">"Scroll Sensitivity"</string>
+	<string name="scroll_sense_summary">"Adjust mouse scroll sensitivity."</string>
+	<string name="other">"Other"</string>
+	<string name="shared_clipboard">"Shared Clipboard"</string>
+	<string name="shared_clipboard_summary">"The clipboard data on PC is reflected to your smart phone."</string>
+	<string name="send_usage_statistics">"Send Usage Statics"</string>
+	<string name="send_usage_statistics_summary">"Sends anonymous usage statistics to elp us improve this app.No personal content or information is sent."</string>
+	<string name="about_this">"About this."</string>
+
+<!-- CustomPreference.java -->
+	<string name="about_this_message">"Visit https://sites.google.com/site/wifimultitouchpad/"</string>
+
+<!-- ServerSettingActivity.java -->
+	<string name="delete_ip">"delete ?"</string>
+	<string name="add_server_ip">"Scanning Server.\nIf not found, add server ip address"</string>
+
+<!-- input_dialog.xml -->
+	<string name="input_server_ip">"Input Server IP Address"</string>
+	
+<!-- wellcome.xml -->
+	<string name="wellcome">Wellcome!</string>
+	<string name="wellcome_message">"Run server application on your PC."</string>
+	<string name="run">"OK"</string>
+
+<!-- MainActivity.java -->
+	<string name="send_message">"The input character was transmitted to PC."</string>
+	<string name="wifi_connection">"Please validate Wi-Fi connection."</string>
+
+<!-- Hint Message -->
+	<string name="hint_wait">"Push a top button to display character input area and key-buttons.\nTap with one finger to left-click.\nTap with two fingers to right-click.\nTap and drag with one finger to drag.\nDrag with two fingers or drag right edge to scroll.\nHint is displayed according to the number of the touched fingers."</string>
+	<string name="hint_1press">"Tap with 2nd finger to left-click.\nTap with 2nd and 3rd fingers to right-click.\nDrag with the 2nd finger touched to left-drag.\nDrag with the 2nd and 3rd fingers touched to right-drag."</string>
+	<string name="hint_dragging">"Dragging"</string>
+	<string name="hint_2press">"Pinching to zoom.\nDrag with two fingers to scroll."</string>
+	<string name="hint_scroll">"Scrolling"</string>
+	<string name="hint_3press">"Tap with three fingers to copy selected characters.\nDouble tap with three fingers to search selected characters with a browser.\nUsing three fingers, brush up or down to maximize or minimize the window.\nUsing three fingers, brush left and right to page forward and back."</string>
+	<string name="hint_4press">"Tap with four fingers to minimizes all open windows and displays the desktop.(Win)\nUsing four fingers, brush left and right to switch to another window.\nUsing four fingers, brush up and down to switch to another window.(Win Aero)"</string>
+	<string name="hint_4press_lr">"Drag to left and right to switch to another window."</string>
+	<string name="hint_4press_ud">"Drag to up and down to switch to another window.(Win Aero)"</string>
+	<string name="hint_clipboard">"Clipboard is shared with this phone."</string>
+	<string name="hint_input">"After input characters.Click decision button to send it to PC.\nPush a back key to hide character input area and key-buttons."</string>
+	
+<!-- general -->
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="add">Add</string>
+	<string name="cancel">Cancel</string>
+	<string name="app_site">"https://sites.google.com/site/wifimultitouchpad/"</string>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="backcolor">#AA000000</drawable>
+	<style name="Theme.Translucent" parent="android:style/Theme.Translucent">
+		<item name="android:windowBackground">@drawable/backcolor</item>
+	</style>
+	
+	<drawable name="backcolor_white">#FFFFFFFF</drawable>
+	<style name="Theme.WhiteBack" parent="android:style/Theme.Translucent">
+		<item name="android:windowBackground">@drawable/backcolor_white</item>
+		<item name="android:textColorPrimary">#FF000000</item>
+	</style>
+</resources>
